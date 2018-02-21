@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map for SimpleThermostat Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SimpleThermostat	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+getCurrentTemp	KEYWORD2
+getCurrentHum	KEYWORD2
+getTemp	KEYWORD2
+getUpperThreesold	KEYWORD2
+getLowerThreesold	KEYWORD2
+setTemp	KEYWORD2
+setUpperThreesold	KEYWORD2
+setLowerThreesold	KEYWORD2
+handle	KEYWORD2
+getSensorPin	KEYWORD2
+getCoolingPin	KEYWORD2
+getHeatingPin	KEYWORD2
+
+######################################
+# Constants (LITERAL1)
+#######################################
+TYPE_DHT11	LITERAL1
+TYPE_DHT22	LITERAL1
+TYPE_DS18B20	LITERAL1
+ERROR_UNSUPPORTED_OPERATION	LITERAL1
+ERROR_UNABLE_TO_READ_SENSOR	LITERAL1
