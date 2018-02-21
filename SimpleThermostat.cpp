@@ -101,7 +101,7 @@ float SimpleThermostat::getUpperThreesold() {
     Method:       float SimpleThermostat::getLowerThreesold()
     Description:  get temperature lower threesold. Lower threesold is used to activate the heating device. (see handle() method)
     Parameters:   none
-    Return value: the temperature upper threesold
+    Return value: the temperature lower threesold
 */
 float SimpleThermostat::getLowerThreesold() {
     return _lowerThreesold;
@@ -125,7 +125,6 @@ void SimpleThermostat::setUpperThreesold(unsigned float threesold) {
     _upperThreesold=threesold;
 }
 /*
-   /*
     Method:       void SimpleThermostat::setLowerThreesold(unsigned float threesold)
     Description:  set temperature lower threesold. Lower threesold is used to activate the heating device. (see handle() method)
     Parameters:   -threesold the new lower threesold
