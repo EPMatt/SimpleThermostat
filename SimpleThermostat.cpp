@@ -162,10 +162,10 @@ unsigned short SimpleThermostat::getHeatingPin() {
 }
 /*
     Method:       void SimpleThermostat::handle()
-    Description:  Read current temperature from the attached sensor and handle cooling and heating devices as it follow.
-                  If the current temperature is higher than the desired temperature+the upper threesold, turn on the cooling device only.
-                  If the current temperature is lower than the desired temperature-the lower threesold, turn on the heating device only.
-                  If the current temperature is equal to the desired temperature (in limits of the sensor precision, of course) turn off heating and cooling devices.
+    Description:  Read <current temperature> from the attached sensor and handle cooling and heating devices as it follow.
+                  If the <current temperature> is higher than the <desired temperature>+<the upper threesold>, turn on the cooling device only.
+                  If the <current temperature> is lower than the <desired temperature>-<the lower threesold>, turn on the heating device only.
+                  If the <current temperature> is equal to the <desired temperature> (in limits of the sensor precision, of course) turn off heating and cooling devices.
                   If the sensor temperature sensor is unplugged or unresponding, turn off heating and cooling devices.
     Parameters:   none
     Return value: none
