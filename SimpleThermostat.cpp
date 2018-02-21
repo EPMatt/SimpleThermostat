@@ -107,7 +107,7 @@ float SimpleThermostat::getLowerThreesold() {
     return _lowerThreesold;
 }
 /*
-    Method:       SimpleThermostat::setTemp(float temp)
+    Method:       void SimpleThermostat::setTemp(float temp)
     Description:  Set desired temperature for the thermostat. This is the temperature which the system will try to reach balancing heating and cooling devices.
     Parameters:   -temp the new desired temperature
     Return value: none
