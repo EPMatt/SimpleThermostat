@@ -18,9 +18,9 @@ void setup() {
   Serial.println("DHT22 Thermostat Example");
   //set desired temperature
   thermostat.setTemp(22.5);
-  //set upper threesold: the heat pin will be turned on when temperature reaches 22.5+2.0 = 24.5 °C
+  //set upper threesold: the cooling pin will be turned on when temperature reaches 22.5+2.0 = 24.5 °C
   thermostat.setUpperThreesold(2.0);
-  //set upper threesold: the thermostat will be turned off when temperature reaches 22.5-1.5 = 21.0 °C
+  //set lower threesold: the heating will be turned on when temperature reaches 22.5-1.5 = 21.0 °C
   thermostat.setLowerThreesold(1.5);
 }
 
